@@ -84,8 +84,8 @@ main {
 
 .weather-forecast {
   margin-top: 20px;
-  text-align: center;
-  color: black;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -93,11 +93,14 @@ main {
   opacity: 0.5;
 }
 
-.weather-forecast-temps {
+.weather-forecast-temperatures {
+  text-align: center;
   font-size: 13px;
+  display: flex;
+  justify-content: center;
 }
 
-.weather-forecast-temp-min {
+.weather-forecast-temp {
   opacity: 0.5;
 }
 
